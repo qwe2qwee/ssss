@@ -19,7 +19,7 @@ function checkBoxes() {
 
 
 
-let strs = ["hossin", "simo" , ]
+let strs = ["hossin", "simo"  ]
 let yon = [];
 
 for (let i = 0; i <strs.length; i++) {
