@@ -36,7 +36,7 @@ h1 {
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
-  transition: transform 0.4s ease;
+  transition: transform 0.7s ease;
 }
 
 .box:nth-of-type(even) {
@@ -46,11 +46,15 @@ h1 {
 .main {
   text-align: center;
   margin: auto;
+  overflow: hidden;
 }
   
 .box.show {
   transform: translateX(0);
+  
 }
+
+.box.show 
 img {
   width: 100%;
 }
