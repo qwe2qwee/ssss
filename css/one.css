@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #efedd6;
+  background-color: #EEEDED;
   font-family: 'Roboto', sans-serif; 
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@ h1 {
   margin: 10px;
   text-align: right;
   font-family: 'Reem Kufi', sans-serif;
+  color: #272829;
 }
 
 .box {
@@ -29,7 +30,7 @@ h1 {
   align-items: center;
   justify-content: center;
   color: #fff;
-  background-color:steelblue ;
+  background-color:#27374D ;
   width: 300px;
   height: 200px;
   margin: 36px 10px;
