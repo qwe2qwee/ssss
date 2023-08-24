@@ -1,0 +1,64 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&family=Reem+Kufi:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efedd6;
+  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0; 
+  overflow-x: hidden;
+}  
+
+h1 {
+  margin: 10px;
+  text-align: right;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color:steelblue ;
+  width: 300px;
+  height: 200px;
+  margin: 36px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.main {
+  text-align: center;
+  margin: auto;
+}
+  
+.box.show {
+  transform: translateX(0);
+}
+img {
+  width: 100%;
+}
+
+.box p {
+  font-size: 31px;
+  max-width: 80%;
+  line-height: 1.6;
+  text-align: right;
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
